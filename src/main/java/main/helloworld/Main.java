@@ -35,11 +35,54 @@ public class Main {
         } else {
              System.out.println("Osoba je Maloletna");
         
+             
+               System.out.println("..............................."); 
+               
+               System.out.println("Unesite broj godina");
+               Scanner input2 = new Scanner(System.in);
+           
+               int personAge = input2.nextInt();
+                
+               
+               if (personAge <= 0) {
+                   System.out.println("Invalid");
+                 }
+               else if (personAge <=5)    
+                        if (personAge <= 0) {
+                   System.out.println("Baby");
+                 }
+               else if (personAge <=11)    
+                                  if (personAge <= 0) {
+                   System.out.println("Kid");
+                 }
+               else if (personAge <=17)    
+                        if (personAge <= 0)
+                              
+                           
+                           
+                           
+                           
+                 
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+               
+               
+             
         
+        }
+
     }
+
+}
+    
+           
+    
+           
     
     
-    
-    
-    
-    }
+
